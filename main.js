@@ -19,9 +19,9 @@ form.addEventListener('btn-depositar' , function(e){
     if  (formValido) {
         alert(mensagemSucesso);
         
-        nomeOrdemservice.valeu = '';
+        nomeOrdemservice.value = '';
         nomeCliente.value = '';
-        telefoneCliente.valeu = '';
+        telefoneCliente.value = '';
 
     } else {
         alert("o nome não esta completo");
