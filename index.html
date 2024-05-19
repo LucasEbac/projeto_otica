@@ -18,33 +18,33 @@
 <div class="container">
     <h1>Otica Glass</h1>
     <h2>Ordem service</h2>
-    <form id="form-otica">
+    <form id="form-otica" action="conexao.php" method="POST">
         <div class="form-group">
           <label for="grau-cliente">Grau</label>
-          <input type="text" class="form-control" id="grau-cliente" placeholder="Grau do cliente">
+          <input type="text" class="form-control" id="grau-cliente" name="grau-cliente" placeholder="Grau do cliente">
         </div>
         <div class="form-group">
             <label for="armacao">Armação</label>
-            <input type="text" class="form-control" id="armacao" placeholder="Nome do medico">
+            <input type="text" class="form-control" id="armacao" name="armacao" placeholder="Nome do medico">
         </div>
         <div class="form-group">
             <label for="valor-final">Valor</label>
-            <input type="text" class="form-control" id="valor-final" placeholder="valor">
+            <input type="text" class="form-control" id="valor-final" name="valor" placeholder="valor">
         </div>
         <div class="form-group">
             <label for="descricao">Descrição</label>
-            <textarea class="form-control" id="descricao" placeholder="descricao"></textarea>
+            <textarea class="form-control" id="descricao" name="descricao" placeholder= "descricao"></textarea>
         </div>
         <div class="form-group">
             <label for="nome-cliente">Nome do cliente</label>
-            <input type="text" class="form-control" id="nome-cliente" placeholder="nome-cliente">
+            <input type="text" class="form-control" id="nome-cliente" name="nome_cliente" placeholder="nome cliente">
         </div>
         <div class="form-group">
             <label for="telefone">Telefone</label>
-            <input type="text" class="form-control" id="telefone" placeholder="telefone">
+            <input type="text" class="form-control" id="telefone" name="telefone" placeholder="telefone">
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
+    </form>
     
 </div>
 <script src="./main.js"></script>
